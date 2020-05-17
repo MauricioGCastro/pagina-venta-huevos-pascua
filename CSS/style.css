@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+nav{
+    background-color: black;
+    color: white;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    margin: 0px 5px ;
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+}
+#logo{
+    margin-left: 50px;
+}
+/* TITULO DE SECCION*/
+h2{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left:  30px;
+}
+hr{
+    margin: 0px 30px 20px 30px;
+}
+
+/*CUERPO DE PRODUCTOS*/
+section{
+    display: flex;
+}
+
+article{
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.columna{
+    width: 30%;
+    border-radius: 15px;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 5px 1px gray;
+    text-align: center;
+    margin-bottom: 25px;
+
+}
+.columna img{
+    width: 100%;
+    margin-bottom: 5px;
+    border-radius: 20px;
+}
+.columna p{
+    margin-bottom: 25px;
+}
+
+.publicidad{
+    width: 150%;
+
+}
+.publicidad img{
+    width: 90%;
+    margin-top: 25px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+@media all  and (min-width:600px) and (max-width: 991px){
+    .columna{
+        width: 28%;
+    }
+    aside{
+        display: none;
+    }
+}
+/* @media all  and (max-width: 599){
+    .columna{
+        width: 100%;
+    }
+    aside{
+        display: none;
+    }
+}
+falta hacer andar en dispositivos pequeños*/
